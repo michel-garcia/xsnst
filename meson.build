@@ -7,4 +7,4 @@ sources = [
   'src/main.cpp',
   'src/Sunset.cpp'
 ]
-executable('xsnst', sources, dependencies: dependencies)
+executable('xsnst', sources, dependencies: dependencies, install: true)

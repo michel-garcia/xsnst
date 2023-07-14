@@ -23,6 +23,12 @@ meson compile
 
 Now you can run `./xsnst` as long as you are in the build directory.
 
+If you wish to install it systemwide run:
+
+```
+meson install
+```
+
 ## Usage
 
 The arguments have been written as straightforward as possible:
