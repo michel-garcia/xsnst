@@ -16,9 +16,8 @@ You will need to satisfy the following dependencies first:
 Then proceed to build and compile the project using meson:
 
 ```
-meson build
-cd build
-meson compile
+meson setup build
+meson compile -C build
 ```
 
 Now you can run `./xsnst` as long as you are in the build directory.
@@ -26,7 +25,7 @@ Now you can run `./xsnst` as long as you are in the build directory.
 If you wish to install it systemwide run:
 
 ```
-meson install
+meson install -C build
 ```
 
 ## Usage
